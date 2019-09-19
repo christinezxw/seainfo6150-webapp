@@ -31,7 +31,7 @@ const Article = () => {
 
               But visitors will be able to see the original 3,600-pound torch in all its glory at a new Statue of Liberty Museum, which will open on Liberty Island in <time dateTime="2019-05">May 2019</time>. The torch was transported there by truck last week, along with a replica model of Lady Liberty's face.<br /><br />
 
-              <q>Although it is not one of the most difficult things we have ever moved,</q> says Douglas Phelps, who oversaw the relocation of the torch, "it is certainly the most important."
+              <q>Although it is not one of the most difficult things we have ever moved,</q> says Douglas Phelps, who oversaw the relocation of the torch, <q>it is certainly the most important.</q>
 
               </p>
 
