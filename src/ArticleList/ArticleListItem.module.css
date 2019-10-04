@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+  }
+
+section{
+    padding: 1rem;
+    border: 1px solid CRIMSON;
+  }
+
+body{
+    font-family: Helvetica;
+    /* "Garamond", "Times New Roman", Times, serif; */
+    background: white;
+    margin: 0;
+    padding: 0;
+    
+  }
+h1 {
+    color: CRIMSON;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+time {
+    font-weight: bold;
+  }
