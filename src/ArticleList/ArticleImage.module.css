@@ -1,0 +1,6 @@
+img {
+    float: left;
+    border-radius: 50%;
+    border: 6px solid CRIMSON;
+    box-shadow: 0 6px 8px 0 dimgray; 
+  }

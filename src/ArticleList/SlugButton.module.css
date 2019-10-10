@@ -2,4 +2,9 @@ button {
     background: CRIMSON;
     color: white;
     float: right;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 6px;
 }

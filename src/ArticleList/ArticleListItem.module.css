@@ -3,25 +3,25 @@ html {
   }
 
 section{
-    padding: 1rem;
-    border: 1px solid CRIMSON;
+    padding-inline-start: 13rem;
+    padding-bottom: 2rem;
   }
-
+#button{
+  overflow:hidden;
+  background: red;
+  position: relative;
+}
 body{
     font-family: Helvetica;
-    /* "Garamond", "Times New Roman", Times, serif; */
-    background: white;
-    margin: 0;
-    padding: 0;
-    
+    padding: 1rem;
   }
 h1 {
     color: CRIMSON;
     font-size: 20px;
     margin: 0;
-    padding: 0;
   }
 
 time {
     font-weight: bold;
+    font-size: 9px;
   }
