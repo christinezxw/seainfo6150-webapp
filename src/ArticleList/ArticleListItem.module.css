@@ -1,27 +1,29 @@
-html {
+section{
+    font-family: Helvetica;
     font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
   }
 
-section{
-    padding-inline-start: 13rem;
-    padding-bottom: 2rem;
-  }
-#button{
-  overflow:hidden;
-  background: red;
-  position: relative;
-}
-body{
-    font-family: Helvetica;
-    padding: 1rem;
+  section > div:nth-child(3) {
+    align-self: flex-end;
   }
 h1 {
     color: CRIMSON;
     font-size: 20px;
-    margin: 0;
+    margin-top: 50px;
   }
 
 time {
     font-weight: bold;
     font-size: 9px;
   }
+/* 
+{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    background: black;
+  } */
