@@ -6,17 +6,11 @@ ul{
   border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-columns: 31% 31% 31%; */
-  /* minmax(250px, 31%) minmax(250px, 31%) minmax(250px, 31%) ; */
-  
   gap: 20px 20px;
-  
 }
 li {
   list-style-type: none;
-  /* margin: 1rem; */
   padding: 10px;
-  padding-bottom: 20px;
   border: 1px solid CRIMSON;
   border-radius: 5px;
   background-image: linear-gradient(
@@ -25,5 +19,4 @@ li {
   white 20%
   );
   box-shadow: 0 6px 8px 0 dimgray; 
-
   }
