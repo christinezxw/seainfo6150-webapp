@@ -32,7 +32,34 @@ li {
     margin-bottom: 1rem;
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: 600px) {
+    .gridsection {
+      background: SILVER;
+      border: 1px dashed DIMGRAY;
+      padding: 20px;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0px 20px;
+    }
+
+    .headline{
+      padding: 5px;
+      font-size: 20px;
+      color: white;
+      text-align: left;
+      background-image: linear-gradient(
+      to right,
+      rgba(220, 20, 60, .7),
+      white 80%
+      );
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 800px) {
     .gridsection {
       background: SILVER;
       border: 1px dashed DIMGRAY;
@@ -64,7 +91,10 @@ li {
     }
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 1000px) {
+    ul{
+      padding-inline-start: 90px;
+    }
     .gridsection {
       background: SILVER;
       border: 1px dashed DIMGRAY;
@@ -78,36 +108,7 @@ li {
     li{
       margin-bottom: 20px;
     }
-    .headline{
-      padding: 5px;
-      font-size: 20px;
-      color: white;
-      text-align: left;
-      background-image: linear-gradient(
-      to right,
-      rgba(220, 20, 60, .7),
-      white 80%
-      );
-      border-radius: 5px;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-  }
 
-  @media (min-width: 1000px) {
-    ul{
-      padding-inline-start: 90px;
-    }
-    .gridsection {
-      background: SILVER;
-      border: 1px dashed DIMGRAY;
-      padding: 20px;
-      border-radius: 5px;
-
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0px 20px;
-    }
     .headline{
       position: fixed;
       top: 15px;
