@@ -1,16 +1,16 @@
-ul{
-  background: SILVER;
-  border: 1px dashed DIMGRAY;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px 20px;
+html{
+  font-size: 15px;
 }
+
+ul{
+  padding: 5px;
+  margin: 5px;
+}
+
 li {
   list-style-type: none;
   padding: 10px;
+  margin-bottom: 5px;
   border: 1px solid CRIMSON;
   border-radius: 5px;
   background-image: linear-gradient(
@@ -19,4 +19,105 @@ li {
   white 20%
   );
   box-shadow: 0 6px 8px 0 dimgray; 
+  }
+
+  .headline{
+    padding: 5px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background: crimson;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 500px) {
+    .gridsection {
+      background: SILVER;
+      border: 1px dashed DIMGRAY;
+      padding: 5px;
+      border-radius: 5px;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0px 5px;
+    }
+
+    li{
+      margin-bottom: 5px;
+    }
+
+    .headline{
+      padding: 5px;
+      font-size: 1.5rem;
+      color: white;
+      text-align: left;
+      background-image: linear-gradient(
+      to right,
+      rgba(220, 20, 60, .7),
+      white 80%
+      );
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .gridsection {
+      background: SILVER;
+      border: 1px dashed DIMGRAY;
+      padding: 20px;
+      border-radius: 5px;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0px 20px;
+    }
+    li{
+      margin-bottom: 20px;
+    }
+    .headline{
+      padding: 5px;
+      font-size: 20px;
+      color: white;
+      text-align: left;
+      background-image: linear-gradient(
+      to right,
+      rgba(220, 20, 60, .7),
+      white 80%
+      );
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    ul{
+      padding-inline-start: 90px;
+    }
+    .gridsection {
+      background: SILVER;
+      border: 1px dashed DIMGRAY;
+      padding: 20px;
+      border-radius: 5px;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0px 20px;
+    }
+    .headline{
+      position: fixed;
+      top: 15px;
+      left: 5px;
+      transform: rotate(90deg);
+      padding: 5px;
+      font-size: 1rem;
+      color: white;
+      text-align: left;
+      background: crimson;
+      border-radius: 5px;
+    }
   }

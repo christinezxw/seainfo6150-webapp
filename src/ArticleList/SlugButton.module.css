@@ -6,3 +6,10 @@ button {
     padding-bottom: 6px;
     width: 100%;
 }
+
+@media (min-width: 1000px) {
+    button{
+      float: right;
+      width: 20%;
+    }
+  }

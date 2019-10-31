@@ -4,3 +4,24 @@ img {
     box-shadow: 0 6px 8px 0 dimgray; 
     max-width: 100%;
   }
+
+  @media (min-width: 500px) {
+  img{
+    width: 80%;
+    height: auto;
+  }
+  }
+  
+  @media (min-width: 700px) {
+    img{
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    img{
+      width: 10rem;
+      height: auto;
+    }
+  }

@@ -1,6 +1,6 @@
 .flexContainer{
     font-family: Helvetica;
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
@@ -9,17 +9,63 @@
 
 h1 {
     color: CRIMSON;
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 25px;
+    margin-top: 10px;
   }
 
 time {
     font-weight: bold;
-    font-size: 9px;
+    font-size: 12px;
   }
 
 .button{
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.image{
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  h1{
+    font-size: 20px;
+  }
+  .flexContainer{
+    font-size: 13px;
+  }
+  time {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 700px) {
+  h1{
+    font-size: 15px;
+  }
+  .flexContainer{
+    font-size: 11px;
+  }
+  time {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+ 
+  .image{
+    float: left;
+  }
+  .text{
+    padding-inline-start: 13rem;
+  }
+  .flexContainer{
+    display: block;
+  }
+  .button{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 }
